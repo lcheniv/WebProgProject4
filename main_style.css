@@ -21,21 +21,26 @@ li {
 
 }
 
+a {
+    margin-top: 1%;
+    font-family: sans-serif;
+    color: black;
+}
+
 /* unvisited link */
 a:link {
-    color: red;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: green;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    font-size: 115%;
+    font-weight: bold;
     text-decoration: none;
 }
 

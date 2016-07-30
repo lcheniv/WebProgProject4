@@ -52,12 +52,9 @@
     
      <div class="col-md-12">
         
-         <div class="form-group">
-             <h2 class="">Sign In.</h2>
-            </div>
+         
         
          <div class="form-group">
-            <hr/>
          </div>
             
             <?php
@@ -72,37 +69,42 @@
                 <?php
    }
    ?>
-            
+        
+        <div id ="space_top">
+
             <div class="form-group">
-             <div class="input-group">
+                <h2 class=""><span id="space">Sign In</span></h2>
+            </div>
+
+            <div class="form-group">
+                <div class="input-group">
                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-             <input type="email" name="userEmail" class="form-control" placeholder="Your Email" required />
+                    <input type="email" name="userEmail" class="form-control" placeholder="Your Email" required />
                 </div>
             </div>
             
             <div class="form-group">
-             <div class="input-group">
-                <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-             <input type="password" name="userPassword" class="form-control" placeholder="Your Password" required />
+                <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                    <input type="password" name="userPassword" class="form-control" placeholder="Your Password" required />
                 </div>
             </div>
             
             <div class="form-group">
-             <hr />
             </div>
             
             <div class="form-group">
-             <button type="submit" class="btn btn-block btn-primary" name="btn-login">Sign In</button>
+                <button type="submit" class="btn btn-block btn-primary" name="btn-login">Sign In</button>
             </div>
             
             <div class="form-group">
-             <hr />
             </div>
             
             <div class="form-group">
-             <a href="register.php">Sign Up Here...</a>
+                <span id="create_account"><a href="register.php">Create an account</a><span>
             </div>
         
+        </div>
         </div>
    
     </form>
