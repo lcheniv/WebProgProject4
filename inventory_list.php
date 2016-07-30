@@ -83,7 +83,7 @@ if ($productCount > 0) {
              $id = $row["id"];
 			 $product_name = $row["product_name"];
 			 $price = $row["price"];
-			 $date_added = strftime("%b %d, %Y", strtotime($row["date_added"]));
+			 $date_added = date_default_timezone_set('America/New_York');
 			 $product_list .= "Product ID: $id - <strong>$product_name</strong> - $$price - <em>Added $date_added</em> &nbsp; &nbsp; &nbsp; <a href='inventory_edit.php?pid=$id'>edit</a> &bull; <a href='inventory_list.php?deleteid=$id'>delete</a><br />";
     }
 } else {
