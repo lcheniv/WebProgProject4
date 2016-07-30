@@ -61,7 +61,7 @@ if (isset($_GET['pid'])) {
 			 $category = $row["category"];
 			 $subcategory = $row["subcategory"];
 			 $details = $row["details"];
-			 $date_added = strftime("%b %d, %Y", strtotime($row["date_added"]));
+			 $date_added = date_default_timezone_set('America/New_York');
         }
     } else {
 	    echo "Sorry dude that crap dont exist.";
