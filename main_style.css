@@ -1,0 +1,46 @@
+body {
+
+    background-image: url("main_bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 2500px;
+
+}
+
+ul {
+
+     list-style-type: none;
+     text-decoration: none;
+
+}
+
+li {
+
+     list-style-type: none;
+     text-decoration: none;
+
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
