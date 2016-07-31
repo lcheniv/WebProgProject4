@@ -99,14 +99,18 @@ if ($productCount > 0) {
 
 <html>
 
-
 <head>
+
+<link rel="stylesheet" href="inventory_style.css" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Inventory List</title>
 
 </head>
 
+
+
 <body>
+
 <div align="center" id="mainWrapper">
   <div id="pageContent"><br />
     <div align="right" style="margin-right:32px;"><a href="inventory_list.php#inventoryForm">+ Add New Inventory Item</a></div>

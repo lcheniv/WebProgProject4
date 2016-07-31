@@ -35,7 +35,7 @@ if ($existCount == 0) { // evaluate the count
   <div align="center" id="mainWrapper">
     <div id="pageContent"><br />
       <div align="left" style="margin-left:24px;">
-          <h2>Hello store manager, what would you like to do today?</h2>
+          <h2>Hello, Orca Box Admin!</h2>
           <p><a href="inventory_list.php">Manage Inventory</a><br />
       </div>
         <br />

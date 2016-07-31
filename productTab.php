@@ -65,7 +65,7 @@
         <li class="dropdown">
 
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                <span class="glyphicon glyphicon-user"></span>&nbsp;Hello, <?php echo $userRow['userEmail']; ?>!&nbsp;<span class="caret"></span></a>
+                <span class="glyphicon glyphicon-user"></span>&nbsp;Your Account<?php echo $userRow['userEmail']; ?>&nbsp;<span class="caret"></span></a>
 
                 <ul class="dropdown-menu">
                     <li><a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
