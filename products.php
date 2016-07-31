@@ -40,9 +40,12 @@ mysql_close();
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?php echo $product_name; ?></title>
-<link rel="stylesheet" href="style/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="view_product_style.css" type="text/css"/>
 </head>
 <body>
+
+<a href="productTab.php">Back to shopping</a>
+
 <div align="center" id="mainWrapper">
   <div id="pageContent">
   <table width="100%" border="0" cellspacing="0" cellpadding="15">

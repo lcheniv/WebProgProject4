@@ -47,7 +47,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
       <title>Products | ORCA BOX</title>
-      <h3>Current Deals | ORCA BOX</h3>
       <p><?php echo $dynamicList; ?><br/>
         </p>
       <p><br/>
