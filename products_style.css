@@ -1,0 +1,33 @@
+body {
+
+    background-image: url("products_bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 2250px;
+
+}
+
+head {
+
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+table {
+
+    margin-left: 15%;
+    margin-right: auto;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 35%;
+
+}
+
+.dropdown {
+    margin-top: -2%;
+    float: right;
+    clear:both;
+}

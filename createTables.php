@@ -1,3 +1,4 @@
+
 <?php
 
 $sshName = "localhost";
@@ -12,7 +13,9 @@ $connect = mysqli_connect($sshName, $userName, $passWord, $dbName);
 
 // check connection
 if(!$connect){
+
 	die("Connection failed:" . mysqli_connect_error());
+
 }
 
 // http://www.w3schools.com/php/php_mysql_create_table.asp
@@ -43,9 +46,13 @@ $sql = "CREATE TABLE Music(
 
 
 if (mysqli_query($connect, $sql)){
+
 	echo "Table Music created successfully";
+
 } else {
+
 	echo "Error creating table: " . mysqli_error($connect);
+	
 }
 
 

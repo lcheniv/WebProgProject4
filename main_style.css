@@ -3,7 +3,7 @@ body {
     background-image: url("main_bg.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 2500px;
+    height: 2050px;
 
 }
 
@@ -48,4 +48,18 @@ a:hover {
 a:active {
     color: blue;
     text-decoration: none;
+}
+
+#products_page{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10%;
+    clear: both;
+}
+
+.dropdown {
+    margin-top: -2%;
+    float: right;
+    clear:both;
 }

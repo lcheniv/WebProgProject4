@@ -1,15 +1,20 @@
+
 <?php
+
  ob_start();
  session_start();
+
  require_once 'dbConnect.php';
  
  if( !isset($_SESSION['user']) ) {
-  header("Location: login.php");
-  exit;
+    header("Location: login.php");
+    exit;
  }
+
  // select loggedin users detail
  $res=mysql_query("SELECT * FROM Users WHERE userId=".$_SESSION['user']);
  $userRow=mysql_fetch_array($res);
+
 ?>
 
 
@@ -29,6 +34,9 @@
 
   <body>
 
+      <div id="products_page">
+        <a href="productTab.php">Products</a>
+      </div>
 
       <ul class="nav navbar-nav navbar-right">
               

@@ -1,0 +1,56 @@
+body {
+
+    background-image: url("register_bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+#login-form {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 22%;
+    font-family: sans-serif;
+}
+
+.input-group {
+    margin-top: 1%;
+}
+
+button {
+    margin-top: 1%;
+}
+
+form-group {
+    margin-top: 1%;
+}
+
+a {
+    margin-top: 1%;
+    font-family: sans-serif;
+    color: black;
+}
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    font-size: 115%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
