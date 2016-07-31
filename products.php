@@ -43,8 +43,9 @@ mysql_close();
 <link rel="stylesheet" href="view_product_style.css" type="text/css"/>
 </head>
 <body>
-
-<a href="productTab.php">Back to shopping</a>
+<div id="back">
+  <a href="productTab.php">Back to shopping</a>
+</div> 
 
 <div align="center" id="mainWrapper">
   <div id="pageContent">

@@ -22,8 +22,11 @@ table {
     margin-right: auto;
     text-align: center;
     font-family: sans-serif;
-    margin-top: 35%;
 
+}
+
+#space_top{
+    margin-top: 30%;
 }
 
 .dropdown {
