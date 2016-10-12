@@ -113,7 +113,7 @@ if ($productCount > 0) {
 
 <div align="center" id="mainWrapper">
   <div id="pageContent"><br />
-    <div align="right" style="margin-right:32px;"><a href="inventory_list.php#inventoryForm">+ Add New Inventory Item</a></div>
+    <div align="right" style="margin-right:32px;"><a href="productTab.php">Click Here to Return to Shopping!</a></div>
 <div align="left" style="margin-left:24px;">
       <h2>Inventory list</h2>
       <?php echo $product_list; ?>

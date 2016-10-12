@@ -51,8 +51,8 @@ mysql_close();
   <div id="pageContent">
   <table width="100%" border="0" cellspacing="0" cellpadding="15">
   <tr>
-    <td width="19%" valign="top"><img src="inventory_images/<?php echo $id; ?>.jpg" width="142" height="188" alt="<?php echo $product_name; ?>" /><br />
-      <a href="inventory_images/<?php echo $id; ?>.jpg">View Full Size Image</a></td>
+    <td width="19%" valign="top"><img src="Used Pics/<?php echo $subcategory; ?>.png" width="142" height="188" alt="<?php echo $product_name; ?>" /><br />
+      <a href="Used Pics/<?php echo $subcategory; ?>.png">View Full Size Image</a></td>
     <td width="81%" valign="top"><h3><?php echo $product_name; ?></h3>
       <p><?php echo "$".$price; ?><br />
         <br />

@@ -8,7 +8,7 @@
 ?>
 
 <?php 
-  // Run a select query to get my letest 6 items
+  // Run a select query to get my latest 6 items
   // Connect to the MySQL database  
 
   $dynamicList = "";
@@ -21,10 +21,11 @@
         $id = $row["id"];
         $product_name = $row["product_name"];
         $price = $row["price"];
+		$subcategory = $row["subcategory"];
         $date_added = date_default_timezone_set('America/New_York');
         $dynamicList .= '<table width="100%" border="0" cellspacing="0" cellpadding="6">
           <tr>
-            <td width="17%" valign="top"><a href="products.php?id=' . $id . '"><img style="border:#666 1px solid;" src="inventory_images/' . $id . '.jpg" alt="' . $product_name . '" width="77" height="102" border="1" /></a></td>
+            <td width="17%" valign="top"><a href="products.php?id=' . $id . '"><img style="border:#666 1px solid;" src="Used Pics/' . $subcategory . '.png" alt="' . $product_name . '" width="77" height="102" border="1" /></a></td>
             <td width="83%" valign="top">' . $product_name . '<br />
               $' . $price . '<br />
               <a href="products.php?id=' . $id . '">View Product Details</a></td>
@@ -47,6 +48,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
       <title>Products | ORCA BOX</title>
+      <h3>Current Deals | ORCA BOX</h3>
       <p><?php echo $dynamicList; ?><br/>
         </p>
       <p><br/>
@@ -63,10 +65,11 @@
               
         <li class="dropdown">
 
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                <span class="glyphicon glyphicon-user"></span>&nbsp;Your Account<?php echo $userRow['userEmail']; ?>&nbsp;<span class="caret"></span></a>
+                <a href="admin_login.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <span class="glyphicon glyphicon-user"></span>&nbsp;Log in as Admin<?php echo $userRow['userEmail']; ?>&nbsp;<span class="caret"></span></a>
 
                 <ul class="dropdown-menu">
+					<li><a href="cart.php">View shopping cart!</a></li>
                     <li><a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
                 </ul>
 

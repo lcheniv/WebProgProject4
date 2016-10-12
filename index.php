@@ -32,41 +32,6 @@ if ($existCount == 0) { // evaluate the count
 
 <body>
 
-<style>
-body { 
-
-    background: #282828;
-    color: white;
-    font-family: sans-serif;
-}
-/* unvisited link */
-a:link {
-    text-decoration: none;
-    color: limegreen;
-}
-
-/* visited link */
-a:visited {
-    text-decoration: none;
-    color: yellow;
-}
-
-/* mouse over link */
-a:hover {
-    font-size: 115%;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-/* selected link */
-a:active {
-    color: cyan;
-    text-decoration: none;
-
-}
-  }
-</style>
-
   <div align="center" id="mainWrapper">
     <div id="pageContent"><br />
       <div align="left" style="margin-left:24px;">

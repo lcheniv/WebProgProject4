@@ -92,7 +92,6 @@ if (isset($_GET['pid'])) {
     <div align="right" style="margin-right:32px;"><a href="inventory_list.php#inventoryForm">+ Add New Inventory Item</a></div>
 <div align="left" style="margin-left:24px;">
       <h2>Inventory list</h2>
-      <?php echo $product_list; ?>
     </div>
     <hr />
     <a name="inventoryForm" id="inventoryForm"></a>

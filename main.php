@@ -35,7 +35,7 @@
   <body>
 
       <div id="products_page">
-        <a href="productTab.php">Products</a>
+        <a href="productTab.php"><h2>Click here to start shopping now!</h2></a>
       </div>
 
       <ul class="nav navbar-nav navbar-right">

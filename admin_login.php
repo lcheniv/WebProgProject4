@@ -56,19 +56,12 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
 
 <body>
 
-<style>
-  body { 
-    background: #282828;
-    color: white;
-    font-family: sans-serif;
-  }
-</style>
+
 
 
 <div align="center" id="mainWrapper">
   <div id="pageContent"><br/>
     <div align="left" style="margin-left:24px;">
-    <h1>Orca Box Admin Login</h1>
       <h2>Please Log In To Manage the Store</h2>
       <form id="form1" name="form1" method="post" action="admin_login.php">
         User Name:<br/>
@@ -78,8 +71,8 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
        <input name="password" type="password" id="password" size="40"/>
        <br/>
        <br/>
+	   (Hint: Put "admin" in both forms)
        <br/>
-       
          <input type="submit" name="button" id="button" value="Log In"/>
        
       </form>

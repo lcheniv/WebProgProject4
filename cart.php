@@ -111,6 +111,7 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 			$product_name = $row["product_name"];
 			$price = $row["price"];
 			$details = $row["details"];
+			$subcategory = $row["subcategory"];
 		}
 		$pricetotal = $price * $each_item['quantity'];
 		$cartTotal = $pricetotal + $cartTotal;
@@ -125,7 +126,7 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 		$product_id_array .= "$item_id-".$each_item['quantity'].","; 
 		// Dynamic table row assembly
 		$cartOutput .= "<tr>";
-		$cartOutput .= '<td><a href="products.php?id=' . $item_id . '">' . $product_name . '</a><br /><img src="inventory_images/' . $item_id . '.jpg" alt="' . $product_name. '" width="40" height="52" border="1" /></td>';
+		$cartOutput .= '<td><a href="products.php?id=' . $item_id . '">' . $product_name . '</a><br /><img src="Used Pics/' . $subcategory . '.png" alt="' . $product_name. '" width="40" height="52" border="1" /></td>';
 		$cartOutput .= '<td>' . $details . '</td>';
 		$cartOutput .= '<td>$' . $price . '</td>';
 		$cartOutput .= '<td><form action="cart.php" method="post">
@@ -193,7 +194,8 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 <?php //echo $pp_checkout_btn; ?>
     <br />
     <br />
-    <a href="cart.php?cmd=emptycart">Click Here to Empty Your Shopping Cart</a>
+    <a href="cart.php?cmd=emptycart">Click Here to Empty Your Shopping Cart</a><br/>
+	<a href="productTab.php">Click Here to Return to Shopping!</a>
     </div>
    <br />
   </div>
